@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  height: 100vh;
+  margin: 2em;
+  gap: 1em;
+}
+h1,
+p,
+a {
+  color: hsl(0, 0%, 100%);
+}
+.main-container,
+.thank-you {
+  background-color: hsl(213, 19%, 18%);
+  max-width: 400px;
+  padding: 1.5em;
+  border-radius: 24px;
+}
+.main-container img {
+  background: hsl(216, 12%, 8%);
+  padding: 0.5em;
+  border-radius: 50px;
+}
+.main-container h1 {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+p {
+  font-size: 15px;
+  line-height: 1.5em;
+}
+.main-container ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.main-container ul li button {
+  width: 3em;
+  height: 3em;
+  background: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 50px;
+  border: none;
+}
+.main-container ul li button:hover {
+  background: hsl(25, 97%, 53%);
+  transition: 0.2s;
+}
+.main-container ul li button:focus {
+  background: hsl(217, 12%, 63%);
+}
+.button-submit{
+  width: 100%;
+  padding: 1em;
+  border-radius: 50px;
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  border: none;
+}
+.button-submit:hover {
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(25, 97%, 53%);
+}
+.thank-you {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.thank-you img {
+  margin: 0 auto 2em;
+}
+.thank-you .text__you-selected {
+  color: hsl(25, 97%, 53%);
+  background: hsl(213, 20%, 22%);
+  padding: 0 0.5em;
+  border-radius: 10px;
+  font-size: 0.8em;
+}
+.thank-you h1 {
+  margin: 0.5em 0;
+}
+.thank-you p {
+  color: hsl(217, 12%, 63%);
+  margin: 0 auto;
+  padding-bottom: 1.5em;
+}
+.hidden {
+  display: none;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
